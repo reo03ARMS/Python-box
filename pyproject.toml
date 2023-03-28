@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-box"
+version = "0.1.0"
+description = ""
+authors = ["reo03ARMS <reo03masu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_box"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
